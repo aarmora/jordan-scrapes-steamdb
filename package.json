@@ -1,0 +1,37 @@
+{
+	"name": "jordan-scrapes-steamdb",
+	"version": "1.0.0",
+	"description": "Using puppeteer, Jordan scrapes steamdb.info for file size.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-scrapes-steamdb.git"
+	},
+	"keywords": [
+		"puppeteer",
+		"javascript",
+		"typescript",
+		"web",
+		"scraping",
+		"steamdb"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-scrapes-steamdb/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-scrapes-steamdb#readme",
+	"dependencies": {
+		"json2csv": "^4.5.3",
+		"puppeteer": "^1.19.0",
+		"puppeteer-helpers": "^1.0.10",
+		"typescript": "^3.6.3"
+	},
+	"devDependencies": {
+		"@types/json2csv": "^4.5.0",
+		"@types/puppeteer": "^1.19.1"
+	}
+}
